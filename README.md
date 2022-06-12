@@ -4,9 +4,9 @@
 
 
 
-.button2 {background-color: #5D6D7E;} 
-.button3 {background-color: #5D6D7E;} 
-.button4 {background-color: #5D6D7E;} 
+.button2 {background-color: #16A085;} 
+.button3 {background-color: #16A085;} 
+.button4 {background-color: #16A085;} 
 </style>
 </head>
 <body>
