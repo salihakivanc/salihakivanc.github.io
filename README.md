@@ -2,31 +2,18 @@
   <!-- <h1>Heading level 1</h1>  -->  
   <!--<button type="button">Click Me! </button> -->  
 
-<head>
-<style>
-.button1 {
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-  
 
-.button2 {background-color: #5D6D7E;} /* mavii */
-.button3 {background-color: #5D6D7E;} /* Blue */
+
+.button2 {background-color: #5D6D7E;} 
+.button3 {background-color: #5D6D7E;} 
+.button4 {background-color: #5D6D7E;} 
 </style>
 </head>
 <body>
 
-<button class="button button2">CV</button>
-<button class="button button3">ABOUT ME</button>
-
+<button class="button button2">Curriculum Vitae</button>
+<button class="button button3">About me</button>
+<button class="button button4">Contact</button>
 </body>
 
 
