@@ -1,4 +1,5 @@
-
+<!DOCTYPE html>
+<html>
 #  Saliha Kıvanç 
   
   <!-- <h1>Heading level 1</h1>  -->  
@@ -17,4 +18,4 @@
 <button class="button button2">About me</button>
 <button class="button button3">Contact</button>
 </body>
-
+</html>
