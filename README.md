@@ -18,9 +18,7 @@
 }
   
 
-<html>
-<head>
-<style>
+
 .button {
   border: none;
   color: white;
@@ -39,8 +37,8 @@
 </head>
 <body>
 
-<button class="button button1">Green</button>
-<button class="button button2">Blue</button>
+<button class="button button1">CV</button>
+<button class="button button2">ABOUT ME</button>
 
 </body>
 </html>
