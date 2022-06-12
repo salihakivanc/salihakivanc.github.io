@@ -6,9 +6,9 @@
 
 <head>
 
-.button1 {background-color: #16A085;} 
-.button2 {background-color: #16A085;} 
-.button3 {background-color: #16A085;} 
+.button1 {background-color: #DDA0DD;} 
+.button2 {background-color: #DDA0DD;} 
+.button3 {background-color: #DDA0DD;} 
 </style>
 </head>
 <body>
