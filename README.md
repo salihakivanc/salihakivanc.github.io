@@ -2,13 +2,6 @@
   <!-- <h1>Heading level 1</h1>  -->  
   <!--<button type="button">Click Me! </button> -->  
 
-root = Tk()      
-canvas = Canvas(root, width = 300, height = 300)      
-canvas.pack()      
-img = PhotoImage(file="ball.ppm")      
-canvas.create_image(20,20, anchor=NW, image=img)      
-mainloop()   
-
 <head>
 <style>
 .button1 {
@@ -36,11 +29,4 @@ mainloop()
 
 </body>
 
-from tkinter import *  
-from PIL import ImageTk,Image  
-root = Tk()  
-canvas = Canvas(root, width = 300, height = 300)  
-canvas.pack()  
-img = ImageTk.PhotoImage(Image.open("ball.png"))  
-canvas.create_image(20, 20, anchor=NW, image=img) 
-root.mainloop() 
+
