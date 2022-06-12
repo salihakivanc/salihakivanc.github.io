@@ -4,7 +4,7 @@
 
 <head>
 <style>
-.button {
+.button1 {
   border: none;
   color: white;
   padding: 16px 32px;
@@ -18,21 +18,8 @@
 }
   
 
-
-.button {
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.button1 {background-color: #4CAF50;} /* Green */
-.button2 {background-color: #008CBA;} /* Blue */
+.button2 {background-color: #4CAF50;} /* Green */
+.button3 {background-color: #008CBA;} /* Blue */
 </style>
 </head>
 <body>
