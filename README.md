@@ -24,8 +24,8 @@
 </head>
 <body>
 
-<button class="button button1">CV</button>
-<button class="button button2">ABOUT ME</button>
+<button class="button button2">CV</button>
+<button class="button button3">ABOUT ME</button>
 
 </body>
 
