@@ -18,8 +18,8 @@
 }
   
 
-.button2 {background-color: #2E86C1;} /* mavii */
-.button3 {background-color: #008CBA;} /* Blue */
+.button2 {background-color: #5D6D7E;} /* mavii */
+.button3 {background-color: #5D6D7E;} /* Blue */
 </style>
 </head>
 <body>
