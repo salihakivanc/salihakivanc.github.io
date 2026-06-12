@@ -104,12 +104,19 @@
             border-radius: 4px;
         }
 
-        /* 5. Profil ve İletişim Alanı Düzeni */
+       /* 5. Profil ve İletişim Alanı Düzeni */
         .profile-container {
             padding: 30px;
             display: flex;
             align-items: flex-start;
             gap: 20px;
+            background-color: transparent !important; /* Beyaz kalmasını önlemek için şeffaf yaptık */
+        }
+
+        /* 6. İçerik Alanları */
+        .content-section {
+            padding: 0 30px 30px 30px;
+            background-color: transparent !important; /* Burayı da tamamen şeffaf yaparak arkadaki maviyi gösteriyoruz */
         }
         .profile-photo {
             width: 200px;
