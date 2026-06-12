@@ -2,12 +2,31 @@
 <html>
 <head>
 <style>
+  /* 1. Sitenin genel arka planı ve ana yazı rengi */
   html, body {
     margin: 0;
     padding: 0;
     width: 100%;
+    background-color: #ffffff; /* Saf Beyaz Arka Plan */
+    color: #2c3e50;            /* Gözü yormayan Koyu Kömür Grisi Yazı */
+    font-family: Arial, sans-serif;
   }
   
+  /* 2. Sitedeki ana başlıklar ve alt başlıklar için Akademik Lacivert */
+  h1, h2, h3, h4 {
+    color: #1a5276; 
+  }
+
+  /* 3. Sitenizdeki linklerin (e-posta vb.) rengi */
+  a {
+    color: #1a5276;
+    text-decoration: none; /* Linklerin altındaki çizgiyi kaldırır */
+  }
+  a:hover {
+    text-decoration: underline; /* Fareyle üzerine gelince çizgi çıkar */
+  }
+
+  /* 4. Kapak Fotoğrafının (Hero) Alanı */
   .hero {
     width: 100%;
     height: 300px;
@@ -15,6 +34,7 @@
     position: relative; /* İçindeki yazının konumlanabilmesi için bu şart */
   }
 
+  /* 5. Kapak Fotoğrafının Kendisi */
   .hero img {
     display: block;
     width: 100%;
@@ -23,27 +43,22 @@
     object-position: center 20%;
   }
 
-  /* Sağ alt köşedeki yazı için CSS */
+  /* 6. Sağ Alt Köşedeki "Pamukkale, Denizli" Yazısı */
   .hero-text {
     position: absolute;
     bottom: 15px;      /* Alt kenardan 15 piksel boşluk */
     right: 20px;       /* Sağ kenardan 20 piksel boşluk */
     color: white;      /* Yazı rengi beyaz */
-    font-family: Arial, sans-serif; /* Şık bir yazı tipi */
-    font-size: 18px;   /* Yazı boyutu (istediğiniz gibi değiştirebilirsiniz) */
     font-weight: bold; /* Kalın yazı */
-    
-    /* Resmin açık renkli olduğu yerlerde yazının okunabilmesi için hafif bir gölge */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
-    
-    background-color: rgba(0, 0, 0, 0.4); /* Yazının arkasına hafif şeffaf siyah bir kutu (İstemezseniz bu satırı silebilirsiniz) */
+    font-size: 18px;   /* Yazı boyutu */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Yazı arkası gölge */
+    background-color: rgba(0, 0, 0, 0.4); /* Yazı arkası hafif şeffaf siyah kutu */
     padding: 5px 10px; /* Kutunun iç boşluğu */
     border-radius: 4px; /* Kutunun köşelerini hafif yuvarlar */
   }
 </style>
 </head>
 <body>
-
 <header class="hero">
   <img src="Pamukkale.jpg" alt="Banner">
   <div class="hero-text">Pamukkale, Denizli</div>
