@@ -1,273 +1,221 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-<style>
-  /* Sitenin genel arka planı ve ana yazı rengi */
-  html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    background-color: #f2f7f9; /* ARKA PLAN RENGİ: Belirgin Buz Mavisi/Açık Gri */
-    color: #2c3e50;            /* Genel yazı rengi (Koyu Kömür Grisi) */
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Sitedeki ana başlıklar ve alt başlıklar için Akademik Lacivert */
-  h1, h2, h3, h4 {
-    color: #1a5276; 
-  }
-
-  /* Sitenizdeki linklerin rengi */
-  a {
-    color: #1a5276;
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-
-  /* Kapak Fotoğrafının (Hero) Alanı */
-  .hero {
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
-    position: relative;
-  }
-
-  /* Kapak Fotoğrafının Kendisi */
-  .hero img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center 20%;
-  }
-
-  /* Sağ Alt Köşedeki "Pamukkale, Denizli" Yazısı */
-  .hero-text {
-    position: absolute;
-    bottom: 15px;
-    right: 20px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 5px 10px;
-    border-radius: 4px;
-  }
-</style>
-</head>
-<body>
-<header class="hero">
-  <img src="Pamukkale.jpg" alt="Banner">
-  <div class="hero-text">Pamukkale, Denizli</div>
-</header>
-
-<section class="about-section">
- <div>
-<div style="float: left">
-<img src="photo.jpg" alt="photo " style="width:200px;height:150px;" >
-</div>
-<div>
-<address style="font-size:140%;">
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Department of Mathematics<br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hacettepe University<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ankara, 06800, TÜRKİYE<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail <a href="salihakivanc@hacettepe.edu.tr">salihakivanc@hacettepe.edu.tr</a>.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.mat.hacettepe.edu.tr/akademik_personel.html#1">www.mat.hacettepe.edu.tr/akademik_personel</a>.<br>
-</address>
-</div>
-</div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saliha Kıvanç</title>
     
-
-    <div class="about">
-        <div class="rightdiv">
-        <div class="b"><h1 style="color:rgb(89, 49, 49);">About me</h1>
-         <p style="color:rgb(45, 25, 25);">Currently, I am a Ph.D. candidate in mathematics at Hacettepe University  under the supervision of <a  href="https://yunus.hacettepe.edu.tr/~sonaran/"> Sinem Onaran</a>.<br> In 2022, I joined  a research group of <a  href="https://sites.google.com/view/drp-turkey/"> Direct Reading  Programme Turkey as a mentor.</a>.<br> 
-           I also attended a summer school at <a href="https://www.smi-math.unipr.it/perugia-2021/15/"> Scuola Matematica Interuniversitaria (SMI)</a> in Perugia, Italy. 
-          </p> 
-
-          <hr>
-        </div>
-</div>
-
-        <p>
-            Low
-        </p>
-    </div>
-
-</section>
-  <head>
-    <title> Saliha Kıvanç </title>
-<!-- <style  type=text/css>
-       .leftdiv
-         {
-         float: left;
-            background-color:gray
-         }
-         .rightdiv
-         {
-         float: left;
-         }
-         div{
-         padding : 5%;
-         color: white;
-         background-color: 009900;
-         width: 30%;
-         border: solid black;
-         }
-}
-h1   {color: blue;}
-p    {color: red;}
-</style> -->
     <style>
-      div.a {
-  line-height: normal;
-}
+        /* 1. Sitenin Genel Ayarları ve Arka Plan Rengi */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            background-color: #f2f7f9; /* İstediğiniz Buz Mavisi Arka Plan */
+            color: #2c3e50;            /* Gözü yormayan Koyu Kömür Grisi Yazı */
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        
+        /* 2. Akademik Başlık Renkleri */
+        h1, h2, h3, h4 {
+            color: #1a5276; /* Akademik Lacivert */
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
 
-div.b {
-  line-height: 1.6;
-}
+        /* 3. Link Ayarları */
+        a {
+            color: #1a5276;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
 
-div.c {
-  line-height: 80%;
-}
+        /* 4. Üst Kapak Fotoğrafı (Pamukkale Banner) */
+        .hero {
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+        }
+        .hero img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 20%;
+        }
+        .hero-text {
+            position: absolute;
+            bottom: 15px;
+            right: 20px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            background-color: rgba(0, 0, 0, 0.4);
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
 
-div.d {
-  line-height: 200%;
-}
-      </style>
-</head>
-  <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+        /* 5. Profil ve İletişim Alanı Düzeni */
+        .profile-container {
+            padding: 30px;
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        .profile-photo {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .profile-address {
+            font-size: 120%;
+            font-style: normal;
+        }
 
-.row {
-  display: flex;
-}
-
-/* Create three equal columns that sits next to each other */
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
-</style>
-    <style>
-        caption {
-        color: rgb(45, 25, 25)  ;
-        caption-side: bottom;
-      }
+        /* 6. İçerik Alanları */
+        .content-section {
+            padding: 0 30px 30px 30px;
+        }
+        
+        /* 7. Fotoğraf Galerisi ve Yan Yana Düzen (Flexbox) */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 15px;
+        }
+        .column {
+            flex: 1;
+            min-width: 250px;
+        }
+        .column img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        caption, figcaption {
+            display: block;
+            color: #555;
+            font-size: 90%;
+            margin-top: 5px;
+            font-style: italic;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #d1dbe0;
+            margin: 30px 0;
+        }
     </style>
 </head>
-  
-<body style="background-color:rgb(224, 209, 206);">
+<body>
 
-    <div>
-<div style="float: left">
-<img src="photo.jpg" alt="photo " style="width:200px;height:150px;">
-</div>
-<div>
-<address style="font-size:140%;">
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Department of Mathematics<br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hacettepe University<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ankara, 06800, TÜRKİYE<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-mail <a href="salihakivanc@hacettepe.edu.tr">salihakivanc@hacettepe.edu.tr</a>.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.mat.hacettepe.edu.tr/akademik_personel.html#1">www.mat.hacettepe.edu.tr/akademik_personel</a>.<br>
-</address>
-</div>
-</div>
-    
-<!--  <h1 style="color:rgb(89, 49, 49);">About me</h1>
-    <p> I am a PhD student at Hacettepe University.
-    </p> -->
-  <div class="b">
-    <hr>
-   <div class="leftdiv">
-      
-      <div class="rightdiv">
-        <div class="b"><h1 style="color:rgb(89, 49, 49);">About me</h1>
-         <p style="color:rgb(45, 25, 25);">Currently, I am a Ph.D. candidate in mathematics at Hacettepe University  under the supervision of <a  href="https://yunus.hacettepe.edu.tr/~sonaran/"> Sinem Onaran</a>.<br> In 2022, I joined  a research group of <a  href="https://sites.google.com/view/drp-turkey/"> Direct Reading  Programme Turkey as a mentor.</a>.<br> 
-           I also attended a summer school at <a href="https://www.smi-math.unipr.it/perugia-2021/15/"> Scuola Matematica Interuniversitaria (SMI)</a> in Perugia, Italy. 
-          </p> 
+    <header class="hero">
+        <img src="Pamukkale.jpg" alt="Banner">
+        <div class="hero-text">Pamukkale, Denizli</div>
+    </header>
 
-          <hr>
-        </div>
-</div>
-        <div class="rightdiv">
-        <div class="b"> <h2 style=''color:rgb(89, 49, 49);"font-size:40px;"''> <a href="https://salihakivanc.github.io/SK_CV.pdf"> Curriculum vitae </a></h2>
+    <div class="profile-container">
+        <img src="photo.jpg" alt="Saliha Kıvanç" class="profile-photo">
+        <address class="profile-address">
+            <strong>Department of Mathematics</strong><br>
+            Hacettepe University<br>
+            Ankara, 06800, TÜRKİYE<br>
+            E-mail: <a href="mailto:salihakivanc@hacettepe.edu.tr">salihakivanc@hacettepe.edu.tr</a><br>
+            Web: <a href="http://www.mat.hacettepe.edu.tr/akademik_personel.html#1" target="_blank">www.mat.hacettepe.edu.tr/akademik_personel</a>
+        </address>
+    </div>
+
+    <div class="content-section">
         
-     <hr>
-          </div>
-    <div class="rightdiv">
-        <div class="b"> <h3 style=''color:rgb(89, 49, 49);''>Assistantships </h3>
-      
-<p> &#8888; 2022 Fall  </p>
-        <p> &#9679;  MTK 111 Analysis I </p>
-<p> &#9679;  MATH 123 Calculus for Engineering departments</p>
+        <h1>About me</h1>
+        <p>
+            Currently, I am a Ph.D. candidate in mathematics at Hacettepe University under the supervision of 
+            <a href="https://yunus.hacettepe.edu.tr/~sonaran/" target="_blank">Sinem Onaran</a>.<br> 
+            In 2022, I joined a research group of 
+            <a href="https://sites.google.com/view/drp-turkey/" target="_blank">Direct Reading Programme Turkey as a mentor</a>.<br> 
+            I also attended a summer school at 
+            <a href="https://www.smi-math.unipr.it/perugia-2021/15/" target="_blank">Scuola Matematica Interuniversitaria (SMI)</a> in Perugia, Italy.
+        </p>
 
+        <hr>
 
-<p> &#x22B8; 2022 Spring</p>
-               <p> &#9679;  MTK 112 Analysis II  </p>
-          <p> &#9679;  MATH 122 Calculus for Statistics department</p>
-<p> &#9679;  MATH 123 Calculus for Engineering departments</p>
+        <h2><a href="https://salihakivanc.github.io/SK_CV.pdf" target="_blank">Curriculum Vitae (PDF)</a></h2>
 
-          <p> &multimap; 2021 Fall </p>
-              <p> &#9679;  MTK 111 Analysis I</p>
-              <p> &#9679;  MATH 121 Calculus for Statistics department</p>
-               <p> &#9679;  MATH 123 Calculus for Engineering departments</p>
-<p> &multimap; 2020 Spring </p>
-               <p>  &#9679; MATH 122 Calculus for Statistics department</p>
-               <p>  &#9679; MATH 124 Calculus for Engineering departments</p>
-<p> &multimap; 2019 Fall </p>
-               <p>  &#9679; MATH 121 Calculus for Statistics department</p>
-               <p> &#9679; MATH 123 Calculus for Engineering departments </p>
-      </div>
-  </div>
-               <hr>
-                 </div>
-    <div class="rightdiv">
-        <div class="b"> <h3 style=''color:rgb(89, 49, 49);''>  Memories from last summer  </h3>
-      </div>
-  </div>
-          <div class="row">
-             <div class="column">
-    <img src="photobes.jpg" alt="photobes " style="width:500px;height:300px;">
-    <figcaption> Algebraic Geometry class with  Professor Joseph Landsberg at Università degli Studi di Perugia </figcaption>
-  </div>
-  <div class="column">
-    <img src="photodort.jpg" alt="photdort " style="width:500px;height:300px;">
-    <figcaption> Algebra class with Assistant Professor Sachin Gautam at Università degli Studi di Perugia </figcaption>
-  </div>
- 
-</div>
-          <hr>
-          </div>
-    <div class="rightdiv">
-        <div class="b"> <h3 style=''color:rgb(89, 49, 49);''>  Here's what I have been doing lately</h3>
-      </div>
-  </div>
+        <hr>
 
-  
-  
-  <div class="row">
-  <div class="column">
-    <img src="photoalti.jpg" alt="photoalti " style="width:200px;height:400px;">
-  </div>
-  <div class="column">
-    <img src="photoiki.jpg" alt="photoiki " style="width:200px;height:400px;">
-  </div>
-  <div class="column">
-    <img src="photobir.jpg" alt="photoalti " style="width:200px;height:400px;">
-  </div>
-</div>
-     
-       
-     
-     
+        <h3>Assistantships</h3>
+        
+        <p><strong>&#8888; 2022 Fall</strong></p>
+        <ul>
+            <li>MTK 111 Analysis I</li>
+            <li>MATH 123 Calculus for Engineering departments</li>
+        </ul>
+
+        <p><strong>&#x22B8; 2022 Spring</strong></p>
+        <ul>
+            <li>MTK 112 Analysis II</li>
+            <li>MATH 122 Calculus for Statistics department</li>
+            <li>MATH 123 Calculus for Engineering departments</li>
+        </ul>
+
+        <p><strong>&multimap; 2021 Fall</strong></p>
+        <ul>
+            <li>MTK 111 Analysis I</li>
+            <li>MATH 121 Calculus for Statistics department</li>
+            <li>MATH 123 Calculus for Engineering departments</li>
+        </ul>
+
+        <p><strong>&multimap; 2020 Spring</strong></p>
+        <ul>
+            <li>MATH 122 Calculus for Statistics department</li>
+            <li>MATH 124 Calculus for Engineering departments</li>
+        </ul>
+
+        <p><strong>&multimap; 2019 Fall</strong></p>
+        <ul>
+            <li>MATH 121 Calculus for Statistics department</li>
+            <li>MATH 123 Calculus for Engineering departments</li>
+        </ul>
+
+        <hr>
+
+        <h3>Memories from last summer</h3>
+        <div class="row">
+            <div class="column">
+                <img src="photobes.jpg" alt="Algebraic Geometry Class">
+                <figcaption>Algebraic Geometry class with Professor Joseph Landsberg at Università degli Studi di Perugia</figcaption>
+            </div>
+            <div class="column">
+                <img src="photodort.jpg" alt="Algebra Class">
+                <figcaption>Algebra class with Assistant Professor Sachin Gautam at Università degli Studi di Perugia</figcaption>
+            </div>
+        </div>
+
+        <hr>
+
+        <h3>Here's what I have been doing lately</h3>
+        <div class="row">
+            <div class="column" style="flex: 1;">
+                <img src="photoalti.jpg" alt="Activity 1">
+            </div>
+            <div class="column" style="flex: 1;">
+                <img src="photoiki.jpg" alt="Activity 2">
+            </div>
+            <div class="column" style="flex: 1;">
+                <img src="photobir.jpg" alt="Activity 3">
+            </div>
+        </div>
+
+    </div>
+
 </body>
-  
 </html>
