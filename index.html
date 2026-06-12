@@ -2,39 +2,39 @@
 <html>
 <head>
 <style>
-  /* 1. Sitenin genel arka planı ve ana yazı rengi */
+  /* Sitenin genel arka planı ve ana yazı rengi */
   html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #ffffff; /* Saf Beyaz Arka Plan */
-    color: #2c3e50;            /* Gözü yormayan Koyu Kömür Grisi Yazı */
+    background-color: #f2f7f9; /* ARKA PLAN RENGİ: Belirgin Buz Mavisi/Açık Gri */
+    color: #2c3e50;            /* Genel yazı rengi (Koyu Kömür Grisi) */
     font-family: Arial, sans-serif;
   }
   
-  /* 2. Sitedeki ana başlıklar ve alt başlıklar için Akademik Lacivert */
+  /* Sitedeki ana başlıklar ve alt başlıklar için Akademik Lacivert */
   h1, h2, h3, h4 {
     color: #1a5276; 
   }
 
-  /* 3. Sitenizdeki linklerin (e-posta vb.) rengi */
+  /* Sitenizdeki linklerin rengi */
   a {
     color: #1a5276;
-    text-decoration: none; /* Linklerin altındaki çizgiyi kaldırır */
+    text-decoration: none;
   }
   a:hover {
-    text-decoration: underline; /* Fareyle üzerine gelince çizgi çıkar */
+    text-decoration: underline;
   }
 
-  /* 4. Kapak Fotoğrafının (Hero) Alanı */
+  /* Kapak Fotoğrafının (Hero) Alanı */
   .hero {
     width: 100%;
     height: 300px;
     overflow: hidden;
-    position: relative; /* İçindeki yazının konumlanabilmesi için bu şart */
+    position: relative;
   }
 
-  /* 5. Kapak Fotoğrafının Kendisi */
+  /* Kapak Fotoğrafının Kendisi */
   .hero img {
     display: block;
     width: 100%;
@@ -43,18 +43,18 @@
     object-position: center 20%;
   }
 
-  /* 6. Sağ Alt Köşedeki "Pamukkale, Denizli" Yazısı */
+  /* Sağ Alt Köşedeki "Pamukkale, Denizli" Yazısı */
   .hero-text {
     position: absolute;
-    bottom: 15px;      /* Alt kenardan 15 piksel boşluk */
-    right: 20px;       /* Sağ kenardan 20 piksel boşluk */
-    color: white;      /* Yazı rengi beyaz */
-    font-weight: bold; /* Kalın yazı */
-    font-size: 18px;   /* Yazı boyutu */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Yazı arkası gölge */
-    background-color: rgba(0, 0, 0, 0.4); /* Yazı arkası hafif şeffaf siyah kutu */
-    padding: 5px 10px; /* Kutunun iç boşluğu */
-    border-radius: 4px; /* Kutunun köşelerini hafif yuvarlar */
+    bottom: 15px;
+    right: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px 10px;
+    border-radius: 4px;
   }
 </style>
 </head>
