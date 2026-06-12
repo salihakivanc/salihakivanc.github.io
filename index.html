@@ -18,27 +18,36 @@
     <title>Saliha Kıvanç</title>
     
     <style>
+/* 3.5. ŞEFFAF VE FOTOĞRAF ÜZERİNE BİNEN MENÜ (NAVBAR) TASARIMI */
+  .navbar {
+    background-color: transparent; /* Arka plandaki rengi tamamen sildik */
+    position: absolute; /* Menüyü fotoğrafın üzerine bindirmek için bu şart */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; /* Menünün fotoğrafın arkasında kalmasını önler */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: flex-end; /* Butonları sağa yaslar */
+    gap: 20px;
+    box-sizing: border-box; /* Boşlukların taşmasını engeller */
+  }
 
-        /* 3.5. Üst Menü (Navigation Bar) Tasarımı */
-        .navbar {
-            background-color: #1a5276; /* Akademik Lacivert arka plan */
-            padding: 10px 30px;
-            display: flex;
-            justify-content: flex-end; /* Butonları sağa yaslar (Sol için flex-start yapabilirsiniz) */
-            gap: 20px; /* Butonların arasındaki boşluk */
-        }
-        .navbar a {
-            color: #ffffff !important; /* Buton yazı rengi beyaz */
-            font-weight: bold;
-            font-size: 16px;
-            padding: 8px 16px;
-            border-radius: 4px;
-            transition: background-color 0.3s; /* Geçiş efekti */
-        }
-        .navbar a:hover {
-            background-color: rgba(255, 255, 255, 0.2); /* Fareyle üzerine gelince hafif parıldama */
-            text-decoration: none; /* Alt çizgiyi kaldırır */
-        }
+  .navbar a {
+    color: #ffffff !important; /* Buton yazı rengi beyaz kalıyor */
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Gökyüzü beyaz olduğunda yazıların okunabilmesi için hafif gölge */
+    transition: background-color 0.3s; 
+  }
+
+  .navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.25); /* Fareyle üzerine gelince şık bir parıldama efekti */
+    text-decoration: none; 
+  }
+        
         
         /* 1. Sitenin Genel Ayarları ve Arka Plan Rengi */
         html, body {
