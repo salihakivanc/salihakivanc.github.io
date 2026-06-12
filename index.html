@@ -10,16 +10,35 @@
   
   .hero {
     width: 100%;
-    height: 300px; /* Banner alanının yüksekliğini kesin olarak 300px yapıyoruz */
-    overflow: hidden; /* Dışarı taşan kısımları gizler */
+    height: 300px;
+    overflow: hidden;
+    position: relative; /* İçindeki yazının konumlanabilmesi için bu şart */
   }
 
   .hero img {
     display: block;
     width: 100%;
-    height: 100%; /* Resme, içinde bulunduğu 300px'lik alanı kaplamasını söylüyoruz */
-    object-fit: cover; /* Resmin oranını bozmadan alanı doldurur */
-    object-position: center 20%; /* Resmin üst/orta kısmına odaklanır, böylece dağlar görünür */
+    height: 100%;
+    object-fit: cover;
+    object-position: center 20%;
+  }
+
+  /* Sağ alt köşedeki yazı için CSS */
+  .hero-text {
+    position: absolute;
+    bottom: 15px;      /* Alt kenardan 15 piksel boşluk */
+    right: 20px;       /* Sağ kenardan 20 piksel boşluk */
+    color: white;      /* Yazı rengi beyaz */
+    font-family: Arial, sans-serif; /* Şık bir yazı tipi */
+    font-size: 18px;   /* Yazı boyutu (istediğiniz gibi değiştirebilirsiniz) */
+    font-weight: bold; /* Kalın yazı */
+    
+    /* Resmin açık renkli olduğu yerlerde yazının okunabilmesi için hafif bir gölge */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    
+    background-color: rgba(0, 0, 0, 0.4); /* Yazının arkasına hafif şeffaf siyah bir kutu (İstemezseniz bu satırı silebilirsiniz) */
+    padding: 5px 10px; /* Kutunun iç boşluğu */
+    border-radius: 4px; /* Kutunun köşelerini hafif yuvarlar */
   }
 </style>
 </head>
@@ -27,6 +46,7 @@
 
 <header class="hero">
   <img src="Pamukkale.jpg" alt="Banner">
+  <div class="hero-text">Pamukkale, Denizli</div>
 </header>
 
 <section class="about-section">
